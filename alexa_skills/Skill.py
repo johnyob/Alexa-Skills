@@ -29,7 +29,7 @@ class Skill:
         """
 
         def handler(event, context):
-            request_handler = RequestHandler(Struct(event), Struct(context))
+            request_handler = RequestHandler(Struct(event), context)
             response = request_handler.handle(self._request_handlers)
             return response.build_response()
 
