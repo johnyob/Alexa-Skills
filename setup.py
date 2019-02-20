@@ -18,7 +18,7 @@ setuptools.setup(
     name="alexa-skills",
     version="0.0.3",
     author="Alistair O'Brien",
-    author_email="alistair.o'brien@ellesmere.com",
+    author_email="alistair@duneroot.co.uk",
     description="A Python Alexa Skills Package.",
     long_description=long_description,
     include_package_data=True,
